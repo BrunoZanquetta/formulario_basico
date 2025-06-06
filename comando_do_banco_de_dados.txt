@@ -1,0 +1,11 @@
+Nome: painel_contato
+Tipo: utf8_general_ci
+
+comando da tabela:
+
+CREATE TABLE mensagens (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  email VARCHAR(100) NOT NULL,
+  mensagem TEXT NOT NULL,
+  data_envio TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
